@@ -4,6 +4,10 @@ compinit
 colors
 setopt extendedglob 
 
+# setup vcs_info
+autoload -Uz vcs_info
+precmd() { vcs_info }
+
 # history
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE="5000"
@@ -15,8 +19,9 @@ setopt INC_APPEND_HISTORY
 setopt SHARE_HISTORY 
 
 # prompts
+setopt prompt_subst
 export PROMPT="%# "
-export RPROMPT="%~"
+export RPROMPT='%~ ${vcs_info_msg_0_}'
 
 # terminal coloring stuff
 export GREP_OPTIONS="--color=auto"
