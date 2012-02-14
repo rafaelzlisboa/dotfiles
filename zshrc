@@ -15,12 +15,8 @@ setopt INC_APPEND_HISTORY
 setopt SHARE_HISTORY 
 
 # prompts
-function git_current_branch() {
-    ref=$(git symbolic-ref HEAD 2> /dev/null) || return
-    echo " git:${ref#refs/heads/}"
-}
 export PROMPT="%# "
-export RPROMPT="%~$(git_current_branch)"
+export RPROMPT="%~"
 
 # terminal coloring stuff
 export GREP_OPTIONS="--color=auto"
