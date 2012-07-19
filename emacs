@@ -16,3 +16,6 @@
 
 (setq twittering-use-master-password t)
 
+(custom-set-variables
+ '(speedbar-show-unknown-files t)
+)
