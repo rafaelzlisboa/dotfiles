@@ -4,9 +4,6 @@ compinit
 colors
 setopt extendedglob
 
-# autocorrect
-setopt correctall
-
 # setup vcs_info
 autoload -Uz vcs_info
 precmd() { vcs_info }
