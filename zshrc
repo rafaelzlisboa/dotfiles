@@ -31,6 +31,7 @@ export CLICOLOR="auto"
 alias ls="ls -Gh"
 alias ll="ls -la"
 alias gs="git status"
+alias e='open -a Emacs "$@"'
 
 export EDITOR=nano
 
