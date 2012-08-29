@@ -18,6 +18,9 @@
 
 (setq twittering-use-master-password t)
 
+(require 'sr-speedbar)
+(global-set-key (kbd "s-s") 'sr-speedbar-toggle)
+
 (custom-set-variables
  '(speedbar-show-unknown-files t)
 )
