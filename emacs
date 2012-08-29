@@ -10,6 +10,7 @@
 (scroll-bar-mode -1)
 
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
 
 (defun turn-on-eldoc-mode ()
   (eldoc-mode t))
