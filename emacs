@@ -7,6 +7,7 @@
 
 (icomplete-mode t)
 (ido-mode t)
+(scroll-bar-mode -1)
 
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 
