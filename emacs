@@ -6,6 +6,19 @@
 (setq-default indent-tabs-mode nil)
 (load-theme 'tango-dark t)
 
+
+(defun shell-command-to-string-no-newline(command)
+  (substring (shell-command-to-string command) 0 -1))
+
+(setq random-word-oneliner "python -c \"import os, random; wordsfile = '/usr/share/dict/words'; words = open(wordsfile, 'r')\; wordsfile_size = os.stat(wordsfile)[6]; words.seek((random.randint(0, wordsfile_size - 1)) % wordsfile_size); words.readline(); print words.readline(),\"")
+(defun startup-echo-area-message() 
+  (message (concat "Before you go, take a random word: " (shell-command-to-string-no-newline random-word-oneliner))))
+
+(setq initial-scratch-message
+  (concat (replace-regexp-in-string "^" "; " (shell-command-to-string-no-newline "fortune wisdom")) "\n\n"))
+
+
+
 (icomplete-mode t)
 (ido-mode t)
 (scroll-bar-mode -1)
