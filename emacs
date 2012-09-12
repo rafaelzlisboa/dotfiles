@@ -3,6 +3,7 @@
 (setq make-backup-files nil)
 (menu-bar-showhide-tool-bar-menu-customize-disable)
 (setq inhibit-splash-screen t)
+(setq-default indent-tabs-mode nil)
 (load-theme 'tango-dark t)
 
 (icomplete-mode t)
