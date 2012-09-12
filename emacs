@@ -23,6 +23,8 @@
 (ido-mode t)
 (scroll-bar-mode -1)
 
+(fset 'yes-or-no-p 'y-or-n-p)
+
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
 
