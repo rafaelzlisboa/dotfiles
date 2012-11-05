@@ -38,5 +38,8 @@
 (global-set-key (kbd "s-s") 'sr-speedbar-toggle)
 
 (custom-set-variables
- '(speedbar-show-unknown-files t)
+  '(speedbar-show-unknown-files t)
+  '(speedbar-smart-directory-expand-flag nil)
+  '(speedbar-update-flag nil)
+  '(sr-speedbar-auto-refresh nil)
 )
