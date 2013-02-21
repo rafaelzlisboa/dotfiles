@@ -5,7 +5,7 @@
 (menu-bar-showhide-tool-bar-menu-customize-disable)
 (setq inhibit-splash-screen t)
 (setq-default indent-tabs-mode nil)
-(load-theme 'tango-dark t)
+(load-theme 'zenburn t)
 
 
 (defun shell-command-to-string-no-newline(command)
