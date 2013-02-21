@@ -1,6 +1,7 @@
 (package-initialize)
 
 (setq make-backup-files nil)
+(setq auto-save-default nil)
 (menu-bar-showhide-tool-bar-menu-customize-disable)
 (setq inhibit-splash-screen t)
 (setq-default indent-tabs-mode nil)
