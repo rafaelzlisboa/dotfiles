@@ -33,6 +33,8 @@
   (eldoc-mode t))
 (add-hook 'emacs-lisp-mode-hook 'turn-on-eldoc-mode)
 
+(require 'expand-region)
+(global-set-key (kbd "C-@") 'er/expand-region)
 
 
 (custom-set-variables
