@@ -16,7 +16,7 @@
   (message (concat "Before you go, take a random word: " (shell-command-to-string-no-newline random-word-oneliner))))
 
 (setq initial-scratch-message
-  (concat (replace-regexp-in-string "^" "; " (shell-command-to-string-no-newline "fortune wisdom")) "\n\n"))
+  (concat (replace-regexp-in-string "^" "; " (shell-command-to-string-no-newline "/usr/local/bin/fortune wisdom")) "\n\n"))
 
 
 
