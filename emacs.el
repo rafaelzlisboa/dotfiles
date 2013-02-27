@@ -24,6 +24,8 @@
 (ido-mode t)
 (scroll-bar-mode -1)
 
+(global-hl-line-mode 1)
+
 (fset 'yes-or-no-p 'y-or-n-p)
 
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
