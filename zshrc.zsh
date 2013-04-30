@@ -32,6 +32,9 @@ alias ls="ls -Gh"
 alias ll="ls -la"
 alias gs="git status"
 alias e='open -a Emacs "$@"'
+alias p="cd ~/Projects"
+alias d="cd ~/Desktop"
+alias tree="tree -C"
 
 export EDITOR=nano
 
@@ -40,5 +43,4 @@ export EDITOR=nano
 
 # very important before we leave: show fortune
 fortune
-
 
