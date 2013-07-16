@@ -22,9 +22,9 @@
 (icomplete-mode t)
 (ido-mode t)
 (global-hl-line-mode 1)
-(when window-system (
+(when window-system
   (scroll-bar-mode -1)
-  (menu-bar-showhide-tool-bar-menu-customize-disable)))
+  (menu-bar-showhide-tool-bar-menu-customize-disable))
 
 (fset 'yes-or-no-p 'y-or-n-p)
 
