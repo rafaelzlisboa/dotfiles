@@ -2,7 +2,6 @@
 
 (setq make-backup-files nil)
 (setq auto-save-default nil)
-(menu-bar-showhide-tool-bar-menu-customize-disable)
 (setq inhibit-splash-screen t)
 (setq-default indent-tabs-mode nil)
 (load-theme 'zenburn t)
@@ -22,9 +21,10 @@
 
 (icomplete-mode t)
 (ido-mode t)
-(scroll-bar-mode -1)
-
 (global-hl-line-mode 1)
+(if (eq window-system 'X) (
+  (scroll-bar-mode -1)
+  (menu-bar-showhide-tool-bar-menu-customize-disable)))
 
 (fset 'yes-or-no-p 'y-or-n-p)
 
