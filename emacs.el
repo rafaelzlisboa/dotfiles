@@ -22,7 +22,7 @@
 (icomplete-mode t)
 (ido-mode t)
 (global-hl-line-mode 1)
-(if (eq window-system 'X) (
+(when window-system (
   (scroll-bar-mode -1)
   (menu-bar-showhide-tool-bar-menu-customize-disable)))
 
