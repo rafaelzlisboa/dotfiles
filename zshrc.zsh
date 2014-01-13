@@ -1,3 +1,15 @@
+# oh my zsh stuff
+ZSH=$HOME/.oh-my-zsh
+
+DISABLE_CORRECTION="true"
+COMPLETION_WAITING_DOTS="true"
+
+plugins=(git brew colored-man colorize emoji-clock gem ant fasd vagrant)
+
+source $ZSH/oh-my-zsh.sh
+
+export PATH=/usr/local/bin:$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/rf/.rvm/bin:/usr/local/share/npm/bin:/Users/rf/.cabal/bin
+
 # zsh startup
 autoload -U compinit colors
 compinit
