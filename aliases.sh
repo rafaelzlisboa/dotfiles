@@ -1,0 +1,9 @@
+alias ls="ls -Gh"
+alias ll="ls -la"
+alias gs="git status"
+alias gsr="git svn rebase"
+alias e='open -a Emacs "$@"'
+alias p="cd ~/Projects"
+alias d="cd ~/Desktop"
+alias tree="tree -C"
+alias f="find . -name"
