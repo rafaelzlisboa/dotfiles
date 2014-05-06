@@ -37,7 +37,8 @@ export RPROMPT='%{$bg[white]%}%{$fg[grey]%} %~%{$fg[blue]%}${vcs_info_msg_0_} %{
 export GREP_OPTIONS="--color=auto"
 export CLICOLOR="auto"
 
-export EDITOR=nano
+export EDITOR=emacs
+export LANG=en_US.UTF-8
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"

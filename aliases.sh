@@ -7,3 +7,9 @@ alias p="cd ~/Projects"
 alias d="cd ~/Desktop"
 alias tree="tree -C"
 alias f="find . -name"
+
+alias iphone="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app" 
+
+animate_wallpaper() {
+  /System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background &
+}
