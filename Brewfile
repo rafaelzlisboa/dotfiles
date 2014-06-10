@@ -1,3 +1,8 @@
+# to use this, run "brew bundle"
+
+install zsh
+
+install emacs
 install midnight-commander
 install tig
 install ranger
