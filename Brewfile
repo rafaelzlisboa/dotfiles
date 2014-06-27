@@ -7,6 +7,7 @@ install midnight-commander
 install tig
 install ranger
 
+install repl
 install pstree
 install tree
 install watch
