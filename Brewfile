@@ -1,26 +1,41 @@
-# to use this, run "brew bundle"
+# to use this:
+#    $ brew tap Homebrew/brewdler
+#    $ brew brewdle
 
-install zsh
+brew 'zsh'
 
-install emacs
-install midnight-commander
-install tig
-install ranger
+brew 'emacs'
+brew 'midnight-commander'
+brew 'tig'
+brew 'ranger'
 
-install repl
-install pstree
-install tree
-install watch
-install htop-osx
+brew 'repl'
+brew 'pstree'
+brew 'tree'
+brew 'watch'
+brew 'htop-osx'
 
-install ack
-install the_silver_searcher
+brew 'ack'
+brew 'the_silver_searcher'
 
-install cmus
-install sox
-install youtube-dl
+brew 'cmus'
+brew 'sox'
+brew 'youtube-dl'
 
-install wget
-install lynx
+brew 'wget'
+brew 'lynx'
 
-install ccze
+brew 'ccze'
+
+
+tap 'caskroom/cask'
+
+cask 'atom'
+cask 'github'
+cask 'amethyst'
+cask 'spectacle'
+cask 'flux'
+cask 'dropbox'
+cask 'audacity'
+cask 'caffeine'
+cask 'xscreensaver'
