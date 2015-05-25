@@ -20,6 +20,7 @@ brew 'the_silver_searcher'
 
 brew 'cmus'
 brew 'sox'
+brew 'ffmpeg'
 brew 'youtube-dl'
 
 brew 'wget'
@@ -31,6 +32,7 @@ brew 'ccze'
 tap 'caskroom/cask'
 
 cask 'atom'
+cask 'emacs'
 cask 'github'
 cask 'amethyst'
 cask 'spectacle'
@@ -39,3 +41,11 @@ cask 'dropbox'
 cask 'audacity'
 cask 'caffeine'
 cask 'xscreensaver'
+cask 'limechat'
+cask 'the-unarchiver'
+cask 'sunvox'
+
+
+tap 'caskroom/fonts'
+
+cask 'font-m-plus'
