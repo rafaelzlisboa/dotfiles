@@ -34,7 +34,7 @@ export PROMPT='%{$bg[white]%}%#%{$terminfo[sgr0]%}: '
 export RPROMPT='%{$bg[white]%}%{$fg[grey]%} %~%{$fg[blue]%}${vcs_info_msg_0_} %{$terminfo[sgr0]%}'
 
 # terminal coloring stuff
-export GREP_OPTIONS="--color=auto"
+alias grep="grep --color=auto"
 export CLICOLOR="auto"
 
 export EDITOR=emacs
