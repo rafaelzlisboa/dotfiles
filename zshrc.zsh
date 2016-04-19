@@ -4,7 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 DISABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git brew colored-man colorize emoji-clock gem ant fasd vagrant)
+plugins=(git brew colored-man colorize emoji-clock gem ant fasd vagrant lein)
 
 source $ZSH/oh-my-zsh.sh
 
