@@ -1,6 +1,6 @@
 # to use this:
-#    $ brew tap Homebrew/brewdler
-#    $ brew brewdle
+#    $ brew tap Homebrew/bundle
+#    $ brew bundle
 
 brew 'zsh'
 
@@ -33,7 +33,7 @@ tap 'caskroom/cask'
 
 cask 'atom'
 cask 'emacs'
-cask 'github'
+cask 'github-desktop'
 cask 'amethyst'
 cask 'spectacle'
 cask 'flux'
@@ -44,6 +44,8 @@ cask 'xscreensaver'
 cask 'limechat'
 cask 'the-unarchiver'
 cask 'sunvox'
+cask 'slack'
+cask 'iterm2'
 
 
 tap 'caskroom/fonts'
