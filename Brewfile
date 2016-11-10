@@ -43,7 +43,6 @@ cask 'caffeine'
 cask 'xscreensaver'
 cask 'limechat'
 cask 'the-unarchiver'
-cask 'sunvox'
 cask 'slack'
 cask 'iterm2'
 
