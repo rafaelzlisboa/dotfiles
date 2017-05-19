@@ -11,6 +11,7 @@ alias f="find . -name"
 alias iphone="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app" 
 alias starbound="open '/Users/rafael/Library/Application Support/Steam/SteamApps/common/Starbound/Starbound.app'"
 
+alias slackscale="mogrify -resize 128x128 -unsharp 2x1.4+0.5+0 -quality 100 -verbose"
 
 animate_wallpaper() {
   /System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background &

@@ -22,6 +22,7 @@ brew 'cmus'
 brew 'sox'
 brew 'ffmpeg'
 brew 'youtube-dl'
+brew 'imagemagick'
 
 brew 'wget'
 brew 'lynx'
