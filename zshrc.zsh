@@ -39,6 +39,3 @@ export CLICOLOR="auto"
 
 export EDITOR=emacs
 export LANG=en_US.UTF-8
-
-# rvm
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"

@@ -29,13 +29,13 @@ brew 'lynx'
 
 brew 'ccze'
 
-
-tap 'caskroom/cask'
-
 cask 'atom'
 cask 'emacs'
+cask 'visual-studio-code'
+
 cask 'amethyst'
-cask 'spectacle'
+cask 'rectangle' # RIP spectacle
+
 cask 'flux'
 cask 'dropbox'
 cask 'xscreensaver'
@@ -43,7 +43,7 @@ cask 'the-unarchiver'
 cask 'slack'
 cask 'iterm2'
 
+tap 'homebrew/cask-fonts'
 
-tap 'caskroom/fonts'
-
-cask 'font-m-plus'
+cask 'font-mplus'
+cask 'font-iosevka'
