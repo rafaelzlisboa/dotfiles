@@ -3,8 +3,9 @@
 #    $ brew bundle
 
 brew 'zsh'
+brew 'borkdude/brew/babashka'
 
-brew 'emacs'
+brew 'bat'
 brew 'midnight-commander'
 brew 'tig'
 brew 'ranger'
@@ -27,16 +28,12 @@ brew 'imagemagick'
 brew 'wget'
 brew 'lynx'
 
-brew 'ccze'
-
-cask 'atom'
 cask 'emacs'
 cask 'visual-studio-code'
 
 cask 'amethyst'
 cask 'rectangle' # RIP spectacle
 
-cask 'flux'
 cask 'dropbox'
 cask 'xscreensaver'
 cask 'the-unarchiver'
