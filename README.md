@@ -17,3 +17,6 @@ source "$HOME/dotfiles/aliases.sh"
 ```
 
 install prelude
+```
+cp my-emacs-prelude.el ~/.emacs.d/personal
+```
